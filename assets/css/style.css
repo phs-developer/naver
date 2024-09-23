@@ -564,7 +564,7 @@ body {
 .sc-footer .notice-area a:nth-child(2)::after {
   content: "";
   display: inline-block;
-  background-image: url("/assets/images/sp-bg.png");
+  background-image: url("../images/sp-bg.png");
   background-size: 458px 444px;
   background-position: -404px -388px;
   background-repeat: no-repeat;
@@ -1139,7 +1139,7 @@ body#main {
   width: 32px;
   height: 32px;
   background-size: 158px 137px;
-  background-image: url(/assets/images/sp-bg3.png);
+  background-image: url("../images/sp-bg3.png");
   background-repeat: no-repeat;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
