@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul,
+ol {
+    list-style: none;
+}
+fieldset {
+    border: 0;
+}
+html {
+    font-size: 10.5px;
+    line-height: 10.5px;
+}
+
+// 세팅
+// px
+// rem 접근성에 좋다
+
+body {
+    color: var(--color_body, #101010);
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "ë§‘ì€ ê³ ë”•", helvetica, "Apple SD Gothic Neo",
+        sans-serif;
+    // sans-serif 고딕
+    // serif 명조
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
